@@ -7,6 +7,5 @@
     "files-comments": "bower:js,endbower",
     "bower-components-path": "bower_components",
     "test-files": "test/mock/**/*.js,test/spec/**/*.js"
-  },
-  "generator-mocha": {}
+  }
 }
