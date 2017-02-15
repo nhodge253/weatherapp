@@ -7,7 +7,7 @@
  * # AboutCtrl
  * Controller of the weatherAppApp
  */
-angular.module('weatherAppApp')
+angular.module('weatherApp')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
