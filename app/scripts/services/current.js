@@ -5,7 +5,7 @@
  * @name weatherAppApp.current
  * @description
  * # current
- * Factory in the weatherAppApp.
+ * Factory in the weatherAppApp.yada
  */
 angular.module('weatherApp')
 .factory('current', function ($resource) {
