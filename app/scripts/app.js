@@ -29,6 +29,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/current/:cityID', {
+        templateUrl: 'views/current.html',
+        controller: 'CurrentCtrl',
+        controllerAs: 'current'
+      })
       .otherwise({
         redirectTo: '/'
       });
