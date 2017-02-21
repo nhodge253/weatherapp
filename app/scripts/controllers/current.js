@@ -7,6 +7,7 @@
  * # CurrentCtrl
  * Controller of the weatherAppApp
  */
+
 angular.module('weatherAppApp')
 .controller('CurrentCtrl', function ($scope, $routeParams, current) {
     $scope.cityID = $routeParams.cityID;
