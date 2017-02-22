@@ -13,8 +13,8 @@ angular.module('weatherAppApp')
     $scope.cityID = $routeParams.cityID;
 
     $scope.currentWeather = current.query({
-        cityID: $routeParams.cityID;
-    
+        cityID: $routeParams.cityID
+
     });
 
 
