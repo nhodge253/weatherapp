@@ -10,16 +10,14 @@
  */
 angular
   .module('weatherAppApp', [
-    'ngAnimate',
-      'ngAria',
+      'ngAnimate',
       'ngCookies',
-      'ngMessages',
       'ngResource',
       'ngRoute',
       'ngSanitize',
       'ngStorage', // added to enable localStorage features
       'ngTouch'
-  ])
+    ])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
