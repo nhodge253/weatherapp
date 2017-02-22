@@ -9,9 +9,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   color: #000;
   padding: 0.2em 0;
 }
-
+h1 {
+  color:pink;
+}
 body {
   padding: 0;
+  text-align: center;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

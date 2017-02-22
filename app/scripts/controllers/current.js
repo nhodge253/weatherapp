@@ -9,10 +9,13 @@
  */
 
 angular.module('weatherAppApp')
-.controller('CurrentCtrl', function ($scope, $routeParams, current) {
+.controller('CurrentCtrl', function ($scope, $routeParams, current, $localStorage) {
     $scope.cityID = $routeParams.cityID;
 
     $scope.currentWeather = current.query({
-        cityID: $routeParams.cityID
+        cityID: $routeParams.cityID;
+    
     });
+
+
   });
