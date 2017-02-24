@@ -10,13 +10,15 @@
  */
 angular
   .module('weatherAppApp', [
-      'ngAnimate',
-      'ngCookies',
-      'ngResource',
-      'ngRoute',
-      'ngSanitize',
-      'ngStorage', // added to enable localStorage features
-      'ngTouch'
+       'ngAnimate',
+       'ngAria',
+       'ngCookies',
+       'ngMessages',
+       'ngResource',
+       'ngRoute',
+       'ngSanitize',
+       'ngStorage', // added to enable localStorage features
+       'ngTouch'
     ])
   .config(function ($routeProvider) {
     $routeProvider
