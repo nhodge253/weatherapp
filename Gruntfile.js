@@ -17,7 +17,8 @@ module.exports = function (grunt) {
     useminPrepare: 'grunt-usemin',
     ngtemplates: 'grunt-angular-templates',
     cdnify: 'grunt-google-cdn',
-    buildcontrol: 'grunt-build-control'
+    buildcontrol: 'grunt-build-control',
+    autoprefixer: 'grunt-autoprefixer' //help jit resolve autoprefixer
   });
 
   // Configurable paths for the application
@@ -316,7 +317,7 @@ module.exports = function (grunt) {
         }
       }
     },
-
+    
     // The following *-min tasks will produce minified files in the dist folder
     // By default, your `index.html`'s <!-- Usemin block --> will take care of
     // minification. These next options are pre-configured if you do not wish
