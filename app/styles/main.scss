@@ -11,7 +11,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   padding: 0.2em 0;
 }
 h1 {
-  color:pink;
+  color:#A239CA;
 }
 
 .jumbotron h1 {
@@ -20,7 +20,7 @@ h1 {
 
 body {
   padding: 0;
-  text-align: center;
+  background-color: #0E0B16;
 }
 
 
@@ -47,6 +47,35 @@ body {
   }
 }
 
+.btn {
+  background-color: #4717F6;
+  color: #E7DFDD;
+}
+
+li .btn {
+  background-color: #4717F6;
+  color: #A239CA;
+}
+
+dl {
+  list-style-type: none;
+  width: 500px;
+  border-radius: 4%;
+  background-color: #A239CA;
+  color: #E7DFDD;
+  padding: 5PX 5PX 5PX 5PX;
+}
+
+dl img {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+dt.ng-binding {
+
+  display: block;
+  color: crimson;
+}
 /* Custom page footer */
 .footer {
   padding-top: 19px;
