@@ -14,9 +14,11 @@ h1 {
   color:#A239CA;
 }
 
-.jumbotron h1 {
-  color:pink;
-}
+.jumbotron {
+  border-radius: 4%;
+  background-color: #A239CA;
+  color: #E7DFDD;
+  padding: 5PX 5PX 5PX 5PX;}
 
 body {
   padding: 0;
@@ -75,6 +77,12 @@ dt.ng-binding {
 
   display: block;
   color: crimson;
+}
+
+p.city-saved-alert {
+  background-color: #A239CA;
+  color: #E7DFDD;
+  padding: 5px 5px 5px 5px;
 }
 /* Custom page footer */
 .footer {
