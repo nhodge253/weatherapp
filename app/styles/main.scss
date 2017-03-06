@@ -3,6 +3,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 @import "transitions";
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
 
 .browsehappy {
   margin: 0.2em 0;
@@ -23,8 +24,13 @@ h1 {
 body {
   padding: 0;
   background-color: #0E0B16;
+  background-image: url("../images/bigsky.JPG");
+  font-family: times;
 }
 
+h1, h3 {
+  font-family: 'Russo One', sans-serif;
+}
 
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -59,6 +65,10 @@ li .btn {
   color: #A239CA;
 }
 
+li a:visited {
+  color:rgba(0, 50, 71, 0.81);
+}
+
 dl {
   list-style-type: none;
   width: 500px;
@@ -76,7 +86,8 @@ dl img {
 dt.ng-binding {
 
   display: block;
-  color: crimson;
+  color: rgb(224, 213, 213);
+  font-size:1.2em;
 }
 
 p.city-saved-alert {
@@ -139,5 +150,10 @@ p.city-saved-alert {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+
+  p label input {
+    color: black;
+    padding: 5px;
   }
 }
