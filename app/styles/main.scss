@@ -4,6 +4,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // endbower
 @import "transitions";
 @import url('https://fonts.googleapis.com/css?family=Russo+One');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento');
 
 .browsehappy {
   margin: 0.2em 0;
@@ -56,16 +57,19 @@ h1, h3 {
 
 .navbar-default .navbar-collapse {
   background-color: transparent;
+  font-family: 'Quattrocento', serif;
 }
 
 .navbar-default {
   background-color: transparent;
+  font-family: 'Quattrocento', serif;
   color: white;
   border: none;
 }
 
 .navbar-default .navbar-brand {
   background-color: transparent;
+  font-family: 'Quattrocento', serif;
   color: white;
   border: none;
 }
@@ -88,15 +92,17 @@ h1, h3 {
   color: #E7DFDD;
   text-align: center;
   margin: auto;
+  font-family: 'Quattrocento', serif;
 }
 
 li .btn {
   background-color: transparent;
   color: #A239CA;
+  font-family: 'Quattrocento', serif;
 }
 
 li a:visited {
-  color:rgba(0, 50, 71, 0.81);
+  color:black;
 }
 
 dl {
