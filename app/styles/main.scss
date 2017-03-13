@@ -12,18 +12,18 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   padding: 0.2em 0;
 }
 h1 {
-  color:#A239CA;
+  color:white;
 }
 
 .jumbotron {
   border-radius: 4%;
-  background-color: #A239CA;
+  background-color: transparent;
   color: #E7DFDD;
   padding: 5PX 5PX 5PX 5PX;}
 
 body {
   padding: 0;
-  background-color: #0E0B16;
+  background-color: transparent;
   background-image: url("../images/bigsky.jpg");
   font-family: times;
 }
@@ -43,7 +43,6 @@ h1, h3 {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
   margin-bottom: 10px;
 
   /* Make the masthead heading the same height as the navigation */
@@ -55,13 +54,44 @@ h1, h3 {
   }
 }
 
+.navbar-default .navbar-collapse {
+  background-color: transparent;
+}
+
+.navbar-default {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.navbar-default .navbar-brand {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+  color: rgb(102, 150, 88);
+  font-weight: bolder;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: white;
+}
 .btn {
-  background-color: #4717F6;
+  background-color: transparent;
   color: #E7DFDD;
+  text-align: center;
+  margin: auto;
 }
 
 li .btn {
-  background-color: #4717F6;
+  background-color: transparent;
   color: #A239CA;
 }
 
@@ -73,7 +103,7 @@ dl {
   list-style-type: none;
   width: 500px;
   border-radius: 4%;
-  background-color: #A239CA;
+  background-color: transparent;
   color: #E7DFDD;
   padding: 5PX 5PX 5PX 5PX;
 }
@@ -86,7 +116,7 @@ dl img {
 dt.ng-binding {
 
   display: block;
-  color: rgb(224, 213, 213);
+  color: white;
   font-size:1.2em;
 }
 
@@ -155,5 +185,10 @@ p.city-saved-alert {
   p label input {
     color: black;
     padding: 5px;
+  }
+
+  .footer {
+    border: none;
+    color: white;
   }
 }
